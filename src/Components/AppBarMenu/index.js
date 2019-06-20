@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from "redux";
 import { connect } from 'react-redux';
 import { push } from 'connected-react-router';
-
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
