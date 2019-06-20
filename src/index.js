@@ -15,9 +15,9 @@ const theme = createMuiTheme({
     primary: { main: '#102542' },
   },
 });
-
+ 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store} >
     <ConnectedRouter history={history}>
       <MuiThemeProvider theme={theme}>
         <AppRouter />
