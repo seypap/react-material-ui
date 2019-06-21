@@ -9,7 +9,6 @@ export default function withCheckToken(WrappedComponent) {
   class withCheckTokenClass extends Component {
     constructor(props) {
       super(props);
-
       this.state = {
         intervalId: null,
       };
