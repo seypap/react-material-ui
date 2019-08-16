@@ -26,7 +26,7 @@ const styles = theme => ({
     cursor: 'pointer',
   },
   menuButton: {
-    marginLeft: -12,
+    marginLeft: -18,
     marginRight: 20,
   },
 });
@@ -64,7 +64,7 @@ class AppBarMenu extends Component {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="title" color="inherit" className={classes.flex}>
-              <span className={classes.spanClickable} onClick={this.goToDashboard}>Admin Dashboard</span>
+              <span className={classes.spanClickable} onClick={this.goToDashboard}>Admin Dashboard1</span>
             </Typography>
 
             {auth.user.signInUserSession && (
