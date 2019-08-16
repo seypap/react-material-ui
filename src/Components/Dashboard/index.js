@@ -24,13 +24,13 @@ import { hardLogin } from "../../Actions/auth";
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    zIndex: 1,
+    zIndex: 100,
     overflow: 'hidden',
     position: 'relative',
     display: 'flex',
   },
   content: {
-    flexGrow: 1,
+    flexGrow: 2,
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing.unit * 3,
     minWidth: 0,
