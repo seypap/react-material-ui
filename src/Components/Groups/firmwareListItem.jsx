@@ -13,7 +13,7 @@ import SelectFirmware from "./SelectFirmware";
 const styles = theme => ({
   simpleListItem: {
     '&:hover': {
-      backgroundColor: theme.palette.grey[100],
+      backgroundColor: theme.palette.grey[200],
     },
   },
 });

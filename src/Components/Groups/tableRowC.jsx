@@ -83,6 +83,10 @@ class TableRowC extends Component {
     this.setState({ dialogManageGroup: false });
   };
 
+  handleModalChange = () => {
+    this.setState({ dialogManageGroup: false });
+  };
+  
   handleTabChange = (event, tabActive) => {
     this.setState({ tabActive });
   };
