@@ -12,7 +12,7 @@ const styles = theme => ({
   progress: {
     display: 'block',
     margin: 0,
-    marginRight: 'auto',
+    marginRight: '10px',
     marginLeft: 'auto',
   },
 });
