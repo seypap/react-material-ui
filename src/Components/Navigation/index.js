@@ -13,9 +13,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 // import Divider from '@material-ui/core/Divider';
 import RestoreIcon from '@material-ui/icons/Restore';
 import SearchIcon from '@material-ui/icons/Search';
-// import GroupIcon from '@material-ui/icons/Group';
-// import PersonIcon from '@material-ui/icons/Person';
-// import DeveloperMode from '@material-ui/icons/DeveloperMode';
+import GroupIcon from '@material-ui/icons/Group';
+import PersonIcon from '@material-ui/icons/Person';
+import DeveloperMode from '@material-ui/icons/DeveloperMode';
 
 const drawerWidth = 280;
 
